@@ -1,0 +1,37 @@
+import './Dashboard2.css'
+
+export default function Dashboard2() {
+  return (
+    <div className="dashboard-2">
+      <div className="rectangle-3">
+      </div>
+      <div className="container">
+        <div className="container-1">
+          <div className="status-bar">
+            <span className="time">
+              9:41
+            </span>
+            <div className="right-side">
+              <img className="icon-mobile-signal" src="assets/vectors/IconMobileSignal3_x2.svg" />
+              <img className="wifi" src="assets/vectors/Wifi3_x2.svg" />
+              <img className="battery-indicator" src="assets/vectors/BatteryIndicator3_x2.svg" />
+            </div>
+          </div>
+          <div className="container-2">
+            <div className="barcode-background-png-61">
+            </div>
+            <div className="frame-2">
+              <img className="vector" src="assets/vectors/Vector4_x2.svg" />
+              <span className="start-scan">
+                Start Scan
+              </span>
+            </div>
+          </div>
+        </div>
+        <img className="rectangle-11" src="assets/vectors/Rectangle111_x2.svg" />
+        <img className="rectangle-111" src="assets/vectors/Rectangle11_x2.svg" />
+        <img className="rectangle-12" src="assets/vectors/Rectangle12_x2.svg" />
+      </div>
+    </div>
+  )
+}
