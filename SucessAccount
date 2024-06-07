@@ -1,0 +1,15 @@
+import './SucessAccount.css'
+
+export default function SucessAccount() {
+  return (
+    <div className="sucess-account">
+      <img className="cross" src="assets/vectors/Cross1_x2.svg" />
+      <p className="congratulation-your-account-is-created-successfully">
+        <span className="congratulation-your-account-is-created-successfully-sub-0"></span><span className="congratulation-your-account-is-created-successfully-sub-2"></span><span className="congratulation-your-account-is-created-successfully-sub-0"></span><span className="congratulation-your-account-is-created-successfully-sub-1"></span><span className="congratulation-your-account-is-created-successfully-sub-6"></span><span></span>
+      </p>
+      <span className="login-to-continoue">
+         Login to continoue
+      </span>
+    </div>
+  )
+}
