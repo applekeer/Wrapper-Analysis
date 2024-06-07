@@ -1,0 +1,49 @@
+.sucess-account {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 21px 17px 16px 0;
+  box-sizing: border-box;
+}
+.file-downloaded-success {
+  font-family: 'Urbanist';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.333;
+  color: #34C759;
+}
+.sucess-account-1 .file-downloaded-success {
+  margin-bottom: 23.5px;
+  overflow-wrap: break-word;
+  font-family: 'Urbanist';
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+.sucess-account-1 .click-to-view {
+  margin: 0 0 29px 18.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Urbanist';
+  font-weight: 400;
+  font-size: 32px;
+  color: #060202;
+}
+.sucess-account-1 .log-out {
+  margin-left: 16.8px;
+  overflow-wrap: break-word;
+  font-family: 'Urbanist';
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #E8315D;
+}
+.sucess-account-1 .cross {
+  margin: 0 2px 44.5px 2px;
+  align-self: flex-end;
+  width: 33px;
+  height: 32px;
+}
