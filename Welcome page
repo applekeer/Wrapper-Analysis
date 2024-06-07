@@ -1,0 +1,38 @@
+import './LetsGoPage.css'
+
+export default function LetsGoPage() {
+  return (
+    <div className="lets-go-page">
+      <div className="rectangle-3">
+      </div>
+      <div className="container">
+        <div className="status-bar">
+          <span className="time">
+            9:41
+          </span>
+          <div className="right-side">
+            <img className="icon-mobile-signal" src="assets/vectors/IconMobileSignal6_x2.svg" />
+            <img className="wifi" src="assets/vectors/Wifi5_x2.svg" />
+            <img className="battery-indicator" src="assets/vectors/BatteryIndicator6_x2.svg" />
+          </div>
+        </div>
+        <div className="frame-1">
+          <div className="healthiconsui-user-profile">
+            <img className="group" src="assets/vectors/Group_x2.svg" />
+          </div>
+          <span className="welcome-to-pickwise-app">
+            Welcome<br />
+            To <br />
+            Pickwise<br />
+            App 
+          </span>
+        </div>
+        <div className="start-btn">
+          <span className="lets-go">
+             Let’s Go
+          </span>
+        </div>
+      </div>
+    </div>
+  )
+}
