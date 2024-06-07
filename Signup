@@ -1,0 +1,59 @@
+import './Signup.css'
+
+export default function Signup() {
+  return (
+    <div className="signup">
+      <div className="rectangle-3">
+      </div>
+      <div className="container">
+        <div className="status-bar">
+          <span className="time">
+            9:41
+          </span>
+          <div className="right-side">
+            <img className="icon-mobile-signal" src="assets/vectors/IconMobileSignal1_x2.svg" />
+            <img className="wifi" src="assets/vectors/Wifi1_x2.svg" />
+            <img className="battery-indicator" src="assets/vectors/BatteryIndicator2_x2.svg" />
+          </div>
+        </div>
+        <div className="container-1">
+          <p className="hello-register">
+            <span className="hello-register-sub-4"></span><span></span>
+          </p>
+          <div className="name">
+            <span className="enter-your-name">
+              Enter your name
+            </span>
+            <div className="eye-1">
+              <img className="vector-1" src="assets/vectors/Vector8_x2.svg" />
+            </div>
+          </div>
+          <div className="number">
+            <span className="enter-your-number">
+              Enter your number
+            </span>
+            <div className="eye">
+              <img className="vector" src="assets/vectors/Vector6_x2.svg" />
+            </div>
+          </div>
+          <div className="password">
+            <span className="password-1">
+              Password
+            </span>
+            <div className="eye-2">
+              <img className="vector-2" src="assets/vectors/Vector1_x2.svg" />
+            </div>
+          </div>
+          <div className="start-btn">
+            <span className="register">
+              Register
+            </span>
+          </div>
+          <p className="already-have-aaccount-login">
+            <span className="already-have-aaccount-login-sub-0"></span><span></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
